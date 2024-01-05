@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Responsive Website</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            min-height: 100vh;
+            background-image: url(awesome.jpg);
+            background-size: cover;
+            background-position: center;
+            font-family: Arial, sans-serif;
+        }
+
+        header {
+            background-color: #344;
+            padding: 1em;
+            text-align: center;
+            color: white;
+        }
+
+        nav {
+            display: flex;
+            background-color: #444;
+            box-shadow: 3px 3px 5px rgba(0, 0, 0, 1.0);
+        }
+
+        nav ul {
+            width: 100%;
+            list-style: none;
+            display: flex;
+            justify-content: flex-start;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 1em;
+            flex-grow: 1;
+            text-align: center;
+        }
+
+        main {
+            padding: 2em;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+            }
+
+            nav a {
+                text-align: center;
+                margin: 0;
+            }
+        }
+
+        main {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        section {
+            margin: 20px 0;
+        }
+
+        .image {
+            max-width: 70%;
+            height: auto;
+            width: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Youth Exploration</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="Explore.html">Explore</a>
+    </nav>
+
+    <main>
+        <section>
+            <b>Enjoyment</b><br>
+                In life, enjoyment plays a crucial role in the overall development and well-being of youth, helping them navigate challenges, form meaningful connections, and build a foundation for a fulfilling future.
+            </p>
+        </section>
+
+        <section>
+            <img src="https://assets.thehansindia.com/h-upload/2022/01/18/1195549-youth.jpg" class="image" alt="Empowering youth with strength-based development">
+        </section>
+
+        <section>
+            <img src="https://www.voicesofyouth.org/sites/voy/files/images/2022-08/img_20220722_235102.jpg" class="image" alt="Can Youth Inspire Everyone? #YouthDay | Voices of Youth">
+        </section>
+
+        <section>
+            Friends
+            <p>
+                <img src="https://us.123rf.com/450wm/vadimgozhda/vadimgozhda1810/vadimgozhda181001487/109768432-young-smiling-friends-jumping-into-swimming-pool-group-of-young-happy-people-having-fun-by-jumping.jpg" jsaction="VQAsE" class="sFlh5c pT0Scc iPVvYb" style="max-width: 450px; height: 277px; margin: 0px; width: 415px;" alt="Young Smiling Friends Jumping Into Swimming Pool. Group Of Young Happy  People Having Fun By Jumping From Poolside Into Water. Friends Enjoying  Outdoor Pool Party. Summer Vacation Concept Stock Photo, Picture and" jsname="kn3ccd" aria-hidden="false">
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>Jake Ondora & Matthew Monton.</p>
+    </footer>
+
+</body>
+
+</html>
